@@ -10,7 +10,7 @@ st.title("Simtrain Eco Streamlit SDK Demo")
 # ===================================== Navigate Page ====================================
 
 if st.button("Go to Student Page"):
-    sdk.ui.navigate_to("managestudents")
+    sdk.ui.navigateTo("managestudents")
 
 
 # ================================= Open On Screen Form ==================================
